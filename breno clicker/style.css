@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rosto {
+    text-align: center;
+    padding-top: 10em;
+}
+
+#rostinho {
+    width: 10%;
+}
