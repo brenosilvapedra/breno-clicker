@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(250, 252, 177);
+}
+
+
 .rosto {
     text-align: center;
     padding-top: 10em;
@@ -10,4 +15,54 @@
 
 #rostinho {
     width: 10%;
+    border-radius: 10px;
+}
+
+.tudo {
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0px 4px 4px .5px black;
+    padding: 1em 0;
+    margin: 5em;
+    text-align: center;
+}
+
+.infos {
+    text-align: center;
+}
+
+.cabecalho {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#clicker-cont {
+    width: 5%;
+    text-align: center;
+}
+
+.upgrade-card {
+    background-color: white;
+}
+
+.botoes {
+    padding: 3em;
+    margin: 3em;
+    text-align: center;
+}
+
+
+#clicker-cont {
+    border-radius: 24px;
+}
+
+.botao-item {
+    width: 10em;
+    border-radius: 24px;
+    box-shadow: 0px 6px 6px 0px grey;
+}
+
+.uptitle {
+    text-align: center;
+    padding: 1em 0;
 }
