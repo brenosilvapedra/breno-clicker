@@ -1,12 +1,12 @@
-/*Const*/
+//Const
 const rosto = document.querySelector("#rostinho")
 const clicks = document.querySelector("#clicker-cont")
 const upclick = document.querySelector("#item-1")
 const slavesup = document.querySelector("#item-2")
 
-/*Click*/
-var click = 1
-var boost = 0
+//Click
+let click = 1
+let boost = 0
 
 rosto.addEventListener('click', clickss)
 
@@ -14,8 +14,8 @@ function clickss() {
     clicks.value = parseInt(clicks.value) + click + boost
 }
 
-/*Boosts*/
-var item1price = 100
+//Boosts
+let item1price = 100
 
 upclick.addEventListener('click', clikado)
  function clikado() {
@@ -26,9 +26,9 @@ upclick.addEventListener('click', clikado)
  }
 
 
- var item2price = 1000
- var slavescont = 0
- var slaveok = false
+ let item2price = 1000
+ let slavescont = 0
+ let slaveok = false
 
 
  slavesup.addEventListener('click', boll)
